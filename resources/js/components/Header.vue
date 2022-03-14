@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+    <nav class="navbar navbar-expand-md navbar-light bg-primary shadow-sm">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -13,7 +13,7 @@
                     v-for="(item, index) in menuItems"
                     :key="index"
                     >
-                    <router-link class="nav-link" :to="{name: item.page}">
+                    <router-link class="nav-link text-light uppercase" :to="{name: item.page}">
                         {{ item.label }}
 
                     </router-link>
