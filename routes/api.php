@@ -22,3 +22,7 @@ Route::namespace('Api')
 ->group(function(){
     Route::post('contacts', 'ContactController@store');
 });
+Route::namespace('Post')
+->group(function(){
+    Route::post('posts', 'PostController@index');
+});

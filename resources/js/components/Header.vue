@@ -36,6 +36,10 @@ export default {
                         page: 'home',
                     },
                     {
+                        label: 'Posts',
+                        page: 'posts',
+                    },
+                    {
                         label: 'About',
                         page: 'about',
                     },

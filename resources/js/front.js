@@ -9,6 +9,7 @@ require('./bootstrap');
 window.Vue = require('vue');
 import App from './views/App';
 import Home from './pages/Home';
+import Posts from './pages/Posts';
 import About from './pages/About';
 import Contacts from './pages/Contacts';
 
@@ -23,6 +24,11 @@ const router = new VueRouter({
                 path: '/',
                 name: 'home',
                 component: Home
+            },
+            {
+                path: '/posts',
+                name: 'posts',
+                component: Posts
             },
             {
                 path: '/about',
